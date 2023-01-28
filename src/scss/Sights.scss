@@ -1,0 +1,19 @@
+@import "reset.css";
+
+.Place{
+    display: flex;
+    width: 100%;
+    .placeleft{
+        width: 100%;
+        font-family: 'Arial';
+            font-size: 200px;
+            font-weight: 700;
+            color: #153DB3;
+        .placetitle{}
+        .placesub{}
+        .placebox{}
+    }
+    .placeright{
+        width: 100%;
+    }
+}

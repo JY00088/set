@@ -4,4 +4,73 @@
     width: 100vw;
     height: 100vh;
     background-color: #153DB3;
+    display: flex;
+    .sidelegt {
+        text-align: left;
+
+        .topbox {
+            .toptext {
+                font-family: 'Arial';
+                font-size: 100px;
+                font-weight: 700;
+                color: #ffff;
+                text-decoration-line: underline;
+                text-decoration-color: currentColor;
+                text-underline-position: under;
+            }
+        }
+
+        .na {
+            font-family: 'Arial';
+            color: #ffff;
+            .nati {
+                display: flex;
+                .natext {}
+            }
+            
+            .inwi {
+                display: flex;
+
+            }
+        }
+
+        .status {
+            width: 100%;
+            .statusbox {
+                background: #ffffff;
+                border-radius: 5%;
+                color: #153DB3;
+                .boxtitile {
+                    display: flex;
+                    .boxp {}
+
+                    .boxdate {}
+                }
+
+                .boxsun {
+                    display: flex;
+                }
+                
+                .boxmon {
+                    display: flex;
+
+                }
+            }
+        }
+    }
+
+    .sideright {
+        //float:right;
+        display: flex;
+        width: 100%;
+        .imgbig{
+            img{width: 170%;}
+            //position: absolute;
+        }
+        .imgsmall{
+            img{
+                width: 20%;
+            }
+        }
+    }
 }

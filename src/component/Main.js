@@ -35,7 +35,7 @@ const Main = () => {
             <h2 className="subtitletitle1">Sunrise Sunset</h2>
             <div className="subtitle1box">
               <img className="subtitleimg1" src="./imgs/sicon.png" />
-              <div className="subtitle1text">Attraction</div>
+              <Link  className="subtitle1text" to="/Sights">Attraction</Link>
             </div>
           </div>
 

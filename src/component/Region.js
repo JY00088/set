@@ -14,46 +14,51 @@ const Region = () => {
       <div className="to">
         <div className="sidelegt">
           <div className="topbox">
-            <div>강원도</div>
+            <div className='toptext'>강원도</div>
             <Link to="/">HOME</Link>
           </div>
 
           <div className="na">
             <div className="nati">
-              <div>2023 1월 강원도 지역 일월출몰</div>
+              <div className='natext'>2023 1월 강원도 지역 일월출몰</div>
               <FontAwesomeIcon icon={faLeftLong} color="#fff" />
             </div>
-            <div>
+            <div className='inwi'>
               <div>입력 :</div>
               <input type="date" />
             </div>
           </div>
 
-          <div>
-            <div>
-              <div>춘천</div>
-              <div>2023 01.01 00시 기준</div>
-              <div>
-                <div>일출몰
-                  <div>출<div>07:33</div></div>
-                  <div>몰<div>17:33</div></div>
-                </div>
-                <div>월출몰
-                  <div>출<div>07:33</div></div>
-                  <div>몰<div>17:33</div></div>
-                </div>
+          <div className='status'>
+            <div className='statusbox'>
+              <div className='boxtitile'>
+                <div className='boxp'>춘천</div>
+                <div className='boxdate'>2023 01.01 00시 기준</div>
+              </div>
+              <div className='boxsun'>
+              <div>일출</div>
+              <div>07:33</div>
+              <div>일몰</div>
+              <div>17:19</div>
+              </div>
+              <div className='boxmon'>
+              <div>월출</div>
+              <div>13:33</div>
+              <div>월몰</div>
+              <div>02:19</div>
               </div>
             </div>
           </div>
 
-          <div></div>
         </div>
 
         <div className="sideright">
           <div className='imgbig'>
-          <img src="./imgs/1x/01.png" />
+            <img src="./imgs/1x/01.png" />
           </div>
-          <div className='imgsmall'></div>
+          <div className='imgsmall'>
+            <img src="./imgs/3x/001.png" />
+          </div>
         </div>
       </div>
       <section>{page}</section>

@@ -3,4 +3,56 @@
   width: 100vw;
   height: 100vh;
   background-color: #153DB3;
+  display: flex;
+}
+.to .sidelegt {
+  text-align: left;
+}
+.to .sidelegt .topbox .toptext {
+  font-family: "Arial";
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: currentColor;
+          text-decoration-color: currentColor;
+  text-underline-position: under;
+}
+.to .sidelegt .na {
+  font-family: "Arial";
+  color: white;
+}
+.to .sidelegt .na .nati {
+  display: flex;
+}
+.to .sidelegt .na .inwi {
+  display: flex;
+}
+.to .sidelegt .status {
+  width: 100%;
+}
+.to .sidelegt .status .statusbox {
+  background: #ffffff;
+  border-radius: 5%;
+  color: #153DB3;
+}
+.to .sidelegt .status .statusbox .boxtitile {
+  display: flex;
+}
+.to .sidelegt .status .statusbox .boxsun {
+  display: flex;
+}
+.to .sidelegt .status .statusbox .boxmon {
+  display: flex;
+}
+.to .sideright {
+  display: flex;
+  width: 100%;
+}
+.to .sideright .imgbig img {
+  width: 170%;
+}
+.to .sideright .imgsmall img {
+  width: 20%;
 }/*# sourceMappingURL=Region.css.map */
