@@ -1,0 +1,476 @@
+@import "reset.css";
+.all::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url("./img/bak.png") 0 top/cover no-repeat fixed;
+  opacity: 10%;
+}
+.all .intro {
+  display: none;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+}
+.all .intro .intrologo {
+  width: 3.5%;
+  position: absolute;
+  padding: 100px 100px;
+  left: 0;
+  top: 0;
+}
+.all .intro .introtext {
+  position: absolute;
+  padding: 100px 100px;
+  font-family: "Arial";
+  font-size: 200px;
+  font-weight: 700;
+  color: #153DB3;
+  top: 0;
+  left: 300px;
+}
+.all .intro .introimgbox {
+  display: flex;
+}
+.all .intro .introimgbox .introimg1 {
+  width: 100%;
+  display: block;
+}
+.all .intro .introimgbox .introimg2 {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 10%;
+  padding: 100px 100px;
+  z-index: 1;
+}
+@-webkit-keyframes intros {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+@keyframes intros {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+.all .main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-animation: mains 1s forwards;
+          animation: mains 1s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  opacity: 1;
+  display: flex;
+}
+.all .main .lashing {
+  width: 100%;
+  text-align: left;
+  padding: 30px 0px 50px 130px;
+}
+.all .main .lashing .maintitle .titletext {
+  font-family: "Arial";
+  font-size: 55px;
+  font-weight: 700;
+  color: #153DB3;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: currentColor;
+          text-decoration-color: currentColor;
+  text-underline-position: under;
+}
+.all .main .lashing .maintitle .titleimg {
+  width: 200px;
+}
+.all .main .lashing .subtitle1 {
+  width: 35%;
+  padding: 20px 0;
+}
+.all .main .lashing .subtitle1 .subtitletitle1 {
+  font-family: "Arial";
+  font-size: 35px;
+  font-weight: 700;
+  color: #153DB3;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: currentColor;
+          text-decoration-color: currentColor;
+  text-underline-position: under;
+}
+.all .main .lashing .subtitle1 .subtitle1box {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.all .main .lashing .subtitle1 .subtitle1box .subtitle1text {
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 700;
+  color: #153DB3;
+}
+.all .main .lashing .subtitle2 {
+  width: 35%;
+  position: relative;
+}
+.all .main .lashing .subtitle2 .subtitletitle2 {
+  font-family: "Arial";
+  font-size: 35px;
+  font-weight: 700;
+  color: #153DB3;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: currentColor;
+          text-decoration-color: currentColor;
+  text-underline-position: under;
+}
+.all .main .lashing .subtitle2 .subtitleimg2 {
+  width: 400px;
+  position: absolute;
+  top: -65px;
+  left: -46px;
+}
+.all .main .mainimg {
+  width: 100%;
+  padding: 30px 130px 50px 0px;
+}
+.all .main .mainimg .mapbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  display: flex;
+  justify-content: flex-start;
+  /* .map {
+      li {
+          position: absolute;
+          display: inline-block;
+      }
+
+
+      .area1 {
+          right: 482px;
+          top: 140px;
+      }
+
+      .area2 {
+          right: 271px;
+          top: 89px;
+      }
+
+      .area3 {
+          right: 223px;
+          top: 120px;
+      }
+
+      .area4 {
+          left: 87px;
+          top: 162px;
+      }
+
+      .area5 {
+          left: 169px;
+          top: 134px;
+      }
+
+      .area6 {
+          left: 169px;
+          top: 216px;
+      }
+
+      .area7 {
+          bottom: 461px;
+          right: 401px;
+      }
+
+      .area8 {
+          top: 274px;
+          left: 237px;
+      }
+
+      .area9 {
+          top: 295px;
+          left: 105px;
+      }
+
+      .area10 {
+          top: 324px;
+          left: 153px;
+      }
+
+      .area11 {
+          top: 352px;
+          left: 153px;
+      }
+
+      .area12 {
+          bottom: 362px;
+          right: 401px;
+      }
+
+      .area13 {
+          bottom: 354px;
+          left: 160px;
+      }
+
+      .area14 {
+          bottom: 246px;
+          left: 160px;
+      }
+
+      .area15 {
+          bottom: 316px;
+          right: 309px;
+      }
+
+      .area16 {
+          bottom: 267px;
+          right: 333px;
+      }
+
+      .area17 {
+          bottom: 279px;
+          right: 451px;
+      }
+
+      .area18 {
+          bottom: 205px;
+          left: 103px;
+      }
+
+      .area19 {
+          bottom: 86px;
+          left: 110px;
+      }
+  }  */
+}
+.all .main .mainimg .mapbox svg {
+  width: 73%;
+  min-width: 500px;
+  min-height: 60px;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  transition: fill 0.2s ease-in-out;
+}
+.all .footer {
+  width: 100%;
+  padding: 50px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+.all .footer .bg {
+  width: 3700px;
+  -webkit-animation: foos 40s linear infinite;
+          animation: foos 40s linear infinite;
+}
+.all .footer .bg p {
+  font-weight: 600;
+  font-family: "Arial";
+  color: #153DB3;
+  font-size: 25px;
+}
+@-webkit-keyframes foos {
+  0% {
+    transform: translateX(-580px);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
+@keyframes foos {
+  0% {
+    transform: translateX(-580px);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
+@-webkit-keyframes mains {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mains {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+polygon:hover {
+  fill: #153DB3;
+}
+
+.st0 {
+  fill: #30CE2C;
+}
+
+.st1 {
+  fill: #30CE2C;
+  stroke: #30CE2C;
+  stroke-width: 1.0385;
+}
+
+.st2 {
+  fill: #008BEE;
+  stroke: #008BEE;
+  stroke-width: 0.5187;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: #FF7900;
+  stroke: #FF7900;
+  stroke-width: 0.5187;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: #FC3E55;
+  stroke: #FC3E55;
+  stroke-width: 0.5187;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #FFC035;
+  stroke: #FFC035;
+  stroke-width: 0.5187;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st6 {
+  fill: #9A41FF;
+  stroke: #9A41FF;
+  stroke-width: 1.0385;
+}
+
+.st7 {
+  fill: #FFFFFF;
+  stroke: #1D1D1B;
+  stroke-miterlimit: 10;
+}
+
+.st8 {
+  fill: #110BFF;
+}
+
+.st9 {
+  fill: none;
+  stroke: #153DB3;
+  stroke-miterlimit: 10;
+}
+
+.st10 {
+  fill: #153DB3;
+}
+
+.st11 {
+  fill: #FFFFFF;
+}
+
+.st12 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+
+.st13 {
+  fill: #FFFFFF;
+  stroke: #153DB3;
+  stroke-miterlimit: 10;
+}
+
+.st14 {
+  fill: #153DB3;
+  stroke: #153DB3;
+  stroke-miterlimit: 10;
+}
+
+.st15 {
+  fill: none;
+}
+
+.st16 {
+  fill: #FFFFFF;
+  stroke: #153DB3;
+  stroke-width: 2;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+
+.st17 {
+  fill: #FFFFFF;
+  stroke: #153DB3;
+  stroke-width: 2;
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+
+.st18 {
+  fill: #FFFFFF;
+  stroke: #153DB3;
+  stroke-width: 3;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+
+.st19 {
+  fill: #FFFFFF;
+  stroke: #153DB3;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+
+.st20 {
+  fill: #153DB3;
+  stroke: #FFFFFF;
+  stroke-width: 3;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+
+.st21 {
+  fill: #153DB3;
+  stroke: #FFFFFF;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}/*# sourceMappingURL=Main.css.map */
