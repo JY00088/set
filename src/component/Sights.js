@@ -135,8 +135,8 @@ const Sights = () => {
                         <div className='placesub'>
                             <div className='subbox'>
                                 <img src="./imgs/sicon.png" />
-                                <div>대표지역명소</div>
-                                <FontAwesomeIcon icon={faLeftLong} color="#153DB3" />
+                                <div>Place</div>
+                                
                             </div>
                         </div>
                         <div className='placebox'>
@@ -150,47 +150,47 @@ const Sights = () => {
                                 <div className='setbox'>
 
                                     <div className='box01'>
-                                        <div>정동진</div>
+                                        <div className='pad10'>정동진</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box02'>
-                                        <div>하늘공원</div>
+                                        <div className='pad10'>하늘공원</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box03'>
-                                        <div>울릉도</div>
-                                        <div>일출 07:34</div>
+                                        <div className='pad10'>울릉도</div>
+                                        <div >일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box04'>
-                                        <div>독도</div>
+                                        <div className='pad10'>독도</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box05'>
-                                        <div>태백산</div>
+                                        <div className='pad10'>태백산</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box06'>
-                                        <div>꽃지해안공원</div>
+                                        <div className='pad10'>꽃지해안공원</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box07'>
-                                        <div>호미곶</div>
+                                        <div className='pad10'>호미곶</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box08'>
-                                        <div>변산반도</div>
+                                        <div className='pad10'>변산반도</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
                                     <div className='box09'>
-                                        <div>간절곶</div>
+                                        <div className='pad10'>간절곶</div>
                                         <div>일출 07:34</div>
                                         <div>일몰 07:34</div>
                                     </div>
