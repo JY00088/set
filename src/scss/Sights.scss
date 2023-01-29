@@ -100,8 +100,9 @@ html {
         width: 100%;
 
         .rightbox {
+            
             img {
-                width: 100%;
+                width: 95%;
             }
 
         }
@@ -156,3 +157,14 @@ html {
     }
 
 }
+
+
+path:hover{
+    cursor: pointer;
+    fill: #153DB3;
+    opacity: 40%;
+}
+polygon:hover {
+    //fill: none;
+}
+

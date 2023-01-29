@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeftLong } from '@fortawesome/free-solid-svg-icons';
 import $ from 'jquery';
+import { ReactComponent as Maps } from '../scss/img/sunmap.svg';
+import { ReactComponent as Maps2 } from '../scss/img/sunmap2.svg';
 
 const Sights = () => {
 
@@ -201,7 +203,7 @@ const Sights = () => {
 
                     <div className='placeright'>
                         <div className='rightbox'>
-                            <img src="./imgs/all.png" />
+                            <Maps2/>
                         </div>
                     </div>
                 </div>
