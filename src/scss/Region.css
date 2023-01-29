@@ -7,10 +7,16 @@
 }
 .to .sidelegt {
   text-align: left;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.to .sidelegt .topbox {
+  width: 100%;
+  padding-bottom: 100px;
 }
 .to .sidelegt .topbox .toptext {
   font-family: "Arial";
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 700;
   color: white;
   -webkit-text-decoration-line: underline;
@@ -20,8 +26,11 @@
   text-underline-position: under;
 }
 .to .sidelegt .na {
+  width: 100%;
   font-family: "Arial";
   color: white;
+  padding-bottom: 100px;
+  font-size: 25px;
 }
 .to .sidelegt .na .nati {
   display: flex;
@@ -33,9 +42,18 @@
   width: 100%;
 }
 .to .sidelegt .status .statusbox {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 300px;
+  height: 200px;
   background: #ffffff;
-  border-radius: 5%;
+  border-radius: 10px;
   color: #153DB3;
+  font-size: 20px;
+  font-weight: 500;
 }
 .to .sidelegt .status .statusbox .boxtitile {
   display: flex;
@@ -47,12 +65,18 @@
   display: flex;
 }
 .to .sideright {
-  display: flex;
+  position: relative;
+  width: 100%;
+}
+.to .sideright .imgbig {
   width: 100%;
 }
 .to .sideright .imgbig img {
-  width: 170%;
+  width: 70%;
 }
 .to .sideright .imgsmall img {
-  width: 20%;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  width: 9%;
 }/*# sourceMappingURL=Region.css.map */

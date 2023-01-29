@@ -19,13 +19,20 @@ html {
   width: 100%;
   font-family: "Arial";
   color: #153DB3;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 .Place .placeleft .placetitle {
   font-size: 70px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
-.Place .placeleft .placetitle img {
-  width: 30%;
+.Place .placeleft .placetitle a {
+  width: 20%;
+}
+.Place .placeleft .placetitle a img {
+  width: 100%;
 }
 .Place .placeleft .placesub .subbox {
   display: flex;
@@ -76,8 +83,12 @@ html {
 .Place .placeright {
   width: 100%;
 }
-.Place .placeright .rightbox img {
-  width: 95%;
+.Place .placeright .rightbox {
+  width: 100%;
+}
+.Place .placeright .rightbox svg {
+  margin: 0 auto;
+  width: 70%;
 }
 
 .risebox {

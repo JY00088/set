@@ -129,8 +129,8 @@ const Sights = () => {
                     <div className='placeleft'>
                         <div className='placetitle'>
                             <div>SOUTH KOREA</div>
-                            <Link to="/">HOME</Link>
-                            <img src="./imgs/tag.png" />
+                           
+                            <Link to="/"> <img src="./imgs/tag.png" /></Link>
                         </div>
                         <div className='placesub'>
                             <div className='subbox'>
